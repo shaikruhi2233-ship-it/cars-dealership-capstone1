@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Cars Dealership</title>
+    <link rel="stylesheet" href="../../../style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #222;
+        }
+
+        nav {
+            background: #102b4e;
+            padding: 18px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a.active {
+            color: #ffd166;
+            border-bottom: 2px solid #ffd166;
+            padding-bottom: 5px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            width: 260px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px #0002;
+        }
+
+        .card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .card a {
+            color: #0759a5;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="../../../index.html">Home</a>
+        <a href="About.html">About Us</a>
+        <a href="Contact.html" class="active" aria-current="page">
+            Contact Us
+        </a>
+    </nav>
+
+    <main class="container">
+        <h1>Contact Us</h1>
+        <p>
+            We are here to help you find your perfect car.
+            Contact our dealership for more information.
+        </p>
+
+        <div class="cards">
+            <section class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600"
+                    alt="Office building"
+                >
+                <h2>Our Address</h2>
+                <p>Cars Dealership</p>
+                <p>123 Main Street, Your City</p>
+            </section>
+
+            <section class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600"
+                    alt="Customer support"
+                >
+                <h2>Phone & Email</h2>
+                <p>Phone: +91 98765 43210</p>
+                <p>
+                    <a href="mailto:contact@example.com">
+                        contact@example.com
+                    </a>
+                </p>
+            </section>
+
+            <section class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=600"
+                    alt="Modern office"
+                >
+                <h2>Business Hours</h2>
+                <p>Monday – Saturday</p>
+                <p>9:00 AM – 6:00 PM</p>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
