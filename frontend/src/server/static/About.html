@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Cars Dealership</title>
+    <link rel="stylesheet" href="../../../frontend/src/style.css">
+    <style>
+        .about-page {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+            margin-top: 30px;
+        }
+
+        .member {
+            width: 280px;
+            padding: 20px;
+            border-radius: 12px;
+            background: white;
+            color: #222;
+            box-shadow: 0 4px 12px #0002;
+        }
+
+        .member img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .member a {
+            color: #0759a5;
+        }
+    </style>
+</head>
+<body>
+    <main class="about-page">
+        <h1>About Our Dealership</h1>
+        <p>
+            We help customers find quality vehicles and provide
+            reliable service throughout their car-buying journey.
+        </p>
+
+        <h2>Meet Our Team</h2>
+
+        <div class="team">
+            <article class="member">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg"
+                     alt="Dealership manager">
+                <h3>Alex Morgan</h3>
+                <h4>Dealership Manager</h4>
+                <p>Manages daily operations and customer relationships.</p>
+                <a href="mailto:alex@example.com">alex@example.com</a>
+            </article>
+
+            <article class="member">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg"
+                     alt="Sales consultant">
+                <h3>Jordan Lee</h3>
+                <h4>Sales Consultant</h4>
+                <p>Helps customers select vehicles that meet their needs.</p>
+                <a href="mailto:jordan@example.com">jordan@example.com</a>
+            </article>
+
+            <article class="member">
+                <img src="https://randomuser.me/api/portraits/men/75.jpg"
+                     alt="Customer support specialist">
+                <h3>Taylor Smith</h3>
+                <h4>Customer Support</h4>
+                <p>Provides customer assistance and after-sales support.</p>
+                <a href="mailto:taylor@example.com">taylor@example.com</a>
+            </article>
+        </div>
+    </main>
+</body>
+</html>
